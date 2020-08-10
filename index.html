@@ -5,254 +5,321 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Prueba</title>
-  <!-- Font Awesome -->
+ 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  
 <body class="elegant-color-dark">
-  <header class="header">    
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center z-depth-0 font-weight-bold">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" height="60" alt="mdb logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <header class="header">  
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center z-depth-0 font-weight-bold">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="img/logocompany83&3spirits.jpeg" height="60" alt="mdb logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Menú 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menú 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menú 3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menú 4</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menú 5</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menú 6</a>
-          </li>
-        </ul>
-      </div>
-      
-    </div>
-  </nav>
-  <section class="showcase">
+            <a class="nav-link" href="#seccion-1">Historia</a>
+        </li>
+        <li class="nav-item dropdown">
+                <a class="nav-link" href="#seccion-2" data-toggle="dropdown">Plantaciones</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item white-text" href="#">Edad 1</a></li>
+                    <li><a class="dropdown-item white-text" href="#">Edad 2</a></li>
+                    <li><a class="dropdown-item white-text" href="#">Edad 3</a></li>
+                    <li><a class="dropdown-item white-text" href="#">Edad 4</a></li>
+                    <li><a class="dropdown-item white-text" href="#">Edad 5</a></li>
+                    <li><a class="dropdown-item white-text" href="#">Edad 6</a></li>
+                </ul>
+            </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#seccion-3">Producción</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Magia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Maduración</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Cata</a>
+        </li>
+    </ul>
+</div>
+</div>
+</nav>
+<div class="showcase">
     <div class="video-container">
-      <video src="img/video.mov" autoplay muted loop></video>
+      <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
     </div>
     <div class="content">
-      <h1 class="h1w" data-aos="zoom-in" data-aos-duration="1500">Bienvenido</h1>
-      <h3 class="h3w">Lorem Ipsum is simply dummy text</h3>
+      <h2 class="h2w">Bienvenido</h2>
+      <h1 class="h1w">Collector's Potion</h1>
+      <h3 class="h3w">Tequila</h3>
+      </div>
     </div>
-  </section>
+    <a class="logowhats" target="_blank" href="https://api.whatsapp.com/send?phone=523481112233&text=Hola&nbsp;me&nbsp;puedes&nbsp;ayudar&nbsp;con&nbsp;algo?"><img src="img/whats.png"></a>
+    <button class="btn near-moon-gradient rounded-pill white-text"><i class="fas fa-shopping-cart"></i> Comprar</button>
 </header>
-<div class="container mt-4 mb-3">
-  <p><h1 class="text-center white-text" data-aos="fade-right">Menú 1</h1></p>
-  <div class="row mt-4">
-    <div class="col-12 col-lg-4" data-aos="fade-up">
-      <div class="card z-depth-0">
-        <div class="view overlay">
-          <img src="img/imagen1.jpg" class="img-fluid">
-        </div>
-        <div class="card-body elegant-color-dark text-center">
-          <h3 class="white-text">Subtitulo 1</h3>
-          <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-lg-4 mb-2" data-aos="fade-up">
-      <div class="card z-depth-0">
-        <div class="view overlay">
-          <img src="img/imagen1.jpg" class="img-fluid">
-        </div>
-        <div class="card-body elegant-color-dark text-center">
-          <h3 class="white-text">Subtitulo 2</h3>
-          <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-lg-4 mb-2" data-aos="fade-up">
-      <div class="card z-depth-0">
-        <div class="view overlay">
-          <img src="img/imagen1.jpg" class="img-fluid">
-        </div>
-        <div class="card-body elegant-color-dark text-center">
-          <h3 class="white-text">Subtitulo 3</h3>
-          <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-      </div>
-    </div> 
-  </div>
-</div>
-<div class="container white-text mt-4">
-  <h1 class="text-center white-text mb-4" data-aos="fade-right">Menú 2</h1>
-  <div class="glide multi" data-aos="zoom-in">
-    <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
-        <li class="glide__slide" style="background: url(img/image2.png) no-repeat center;">.</li>
-        <li class="glide__slide" style="background: url(img/image2.png) no-repeat center;">.</li>
-        <li class="glide__slide" style="background: url(img/image2.png) no-repeat center;">.</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
-<div class="container mt-4">
-  <h1 class="text-center white-text" data-aos="fade-right">Menú 3</h1>
-  <div class="row">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      <div class="md-form" data-aos="zoom-in">
-        <input type="text" class="form-control white-text">
-        <label for="form1">Nombre</label>
+<section id="seccion-1">
+    <h1>Sección <b class="cyan-text">1</b></h1>
+    <div class="container mt-5 mb-5">
+      <div class="row mb-5">
+        <div class="col-12 col-lg-5 mb-2 order-lg-last" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
+          <img class="historia" src="img/agave.png">
+        </div>
+        <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2 order-lg-firts">
+          <h3 class="cyan-text">Subtitulo 1</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12 col-lg-5 mb-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
+          <img class="historia" src="img/tequila.png">
+        </div>
+        <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2">
+          <h3 class="cyan-text">Subtitulo 2</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-5 mb-2 order-lg-last" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
+          <img class="historia" src="img/alcohol.png">
+        </div>
+        <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2 order-lg-firts">
+          <h3 class="cyan-text">Subtitulo 3</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-4">
-      <div class="md-form" data-aos="zoom-in">
-        <input type="tel" class="form-control white-text">
-        <label for="form1">Teléfono</label>
-      </div>
-    </div>
-    <div class="col-12 col-lg-4">
-      <div class="md-form" data-aos="zoom-in">
-        <input type="email" class="form-control white-text">
-        <label for="form1">E-mail</label>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      <div class="md-form" data-aos="zoom-in">
-        <textarea class="md-textarea form-control" rows="3"></textarea>
-        <label for="form7">Mensaje</label>
-      </div>
-    </div>
-  </div>
-  <div class="row justify-content-center mb-5">
-    <div class="col-10 col-lg-6" data-aos="zoom-in">
-      <button type="button" class="btn btn-outline-cyan btn-sm btn-block z-depth-0 rounded-pill">ENVIAR</button>
-    </div>
-  </div>
+</section>
+
+<!-- Sección 2 -->
+<section id="seccion-2">
+    <h1>Sección <b class="cyan-text">2</b></h1>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img class="edades" src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg">
+            </div>
+            <div class="col-12 col-lg-6 text-lg-right text-center white-text align-self-center">
+                <h3 class="cyan-text">Subtitulo 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-12 col-lg-6 order-lg-last">
+                <img class="edades" src="https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg">
+            </div>
+            <div class="col-12 col-lg-6 text-lg-left text-center white-text align-self-center order-lg-first">
+                <h3 class="cyan-text">Subtitulo 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img class="edades" src="https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg">
+            </div>
+            <div class="col-12 col-lg-6 text-lg-right text-center white-text align-self-center">
+                <h3 class="cyan-text">Subtitulo 3</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
 </div>
+</section>
+
+<section id="seccion-3">
+    <h1>Sección <b class="cyan-text">3</b></h1>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-2">
+          <div class="card z-depth-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div class="view overlay black d-flex justify-content-center">
+              <video src="img/Video.mov" autoplay muted loop style="height: 30vh;"></video>
+            </div>
+            <div class="card-body elegant-color-dark text-justify">
+              <h3 class="cyan-text">Subtitulo 1</h3>
+              <p class="white-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-2">
+          <div class="card z-depth-2" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+            <div class="view overlay black d-flex justify-content-center">
+              <video src="img/Video_1.mov" autoplay muted loop style="height: 30vh;"></video>
+            </div>
+            <div class="card-body elegant-color-dark text-justify">
+              <h3 class="cyan-text">Subtitulo 2</h3>
+              <p class="white-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-2">
+          <div class="card z-depth-2" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+            <div class="view overlay black d-flex justify-content-center">
+              <video src="img/Video_2.mov" autoplay muted loop style="height: 30vh;"></video>
+            </div>
+            <div class="card-body elegant-color-dark text-justify">
+              <h3 class="cyan-text">Subtitulo 3</h3>
+              <p class="white-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+</section>
+
+<!-- Sección 3 -->
+<section id="">
+    <h1>Sección 4</h1>
+    <div class="container mt-3">
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <div class="md-form">
+          <input type="text" class="form-control white-text">
+          <label for="form1">Nombre</label>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-4">
+        <div class="md-form">
+          <input type="tel" class="form-control white-text">
+          <label for="form1">Teléfono</label>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="md-form">
+          <input type="email" class="form-control white-text">
+          <label for="form1">E-mail</label>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <div class="md-form">
+          <textarea class="md-textarea form-control" rows="3"></textarea>
+          <label for="form7">Mensaje</label>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+      <div class="col-10 col-lg-6">
+        <button type="button" class="btn btn-outline-cyan btn-sm btn-block z-depth-0 rounded-pill">ENVIAR</button>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="page-footer font-small dark darken-3 mt-5">
-  <div class="container">
-    <div class="row" data-aos="fade-up">
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center">
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-lg-5 mr-5 fa-2x"> </i>
-          </a>
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-lg-5 mr-5 fa-2x"> </i>
-          </a>
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-lg-5 mr-5 fa-2x"> </i>
-          </a>
-          <a class="pin-ic">
-            <i class="far fa-envelope fa-lg white-text fa-2x"></i>
-          </a>
+    <div class="footer-copyright text-center py-3">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-lg-12 col-6 mb-3">
+                Firma 1
+            </div>
+            <div class="col-lg-4 col-6">
+                Firma 2  
+            </div>
+            <div class="col-lg-4 col-6 mb-3">
+                Firma 3  
+            </div>
+            <div class="col-lg-4 col-6">
+                Firma 4  
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="#"> Prueba</a>
-  </div>
+        <div class="row text-center">
+            <div class="col-lg-6 col-12 order-lg-last">
+                <a><i class="fab fa-facebook-f fa-lg white-text mr-lg-4 mr-3 mb-lg-0 mb-3"> </i></a>
+                <a><i class="fab fa-twitter fa-lg white-text mr-lg-4 mr-3"> </i></a>
+                <a><i class="fab fa-instagram fa-lg white-text mr-lg-4 mr-3"> </i></a>
+                <a><i class="far fa-envelope fa-lg white-text"> </i></a>
+            </div>
+            <div class="col-lg-6 col-12 order-lg-first white-text">
+                <b>© 2020 Mind Collector's Potion</b> | <b>Company 83 & 3 Spirits</b> Todos los derechos reservados.
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Términos y condiciones de uso y privacidad.
+            </div>
+        </div>
+    </div>
 </footer>
-<a class="logowhats" target="_blank" href="https://api.whatsapp.com/send?phone=523481112233&text=Hola&nbsp;me&nbsp;puedes&nbsp;ayudar&nbsp;con&nbsp;algo?"><img src="img/whats.png"></a>
-
-
-
-
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-
-<script>
-  AOS.init();
-</script>
-<script type="text/javascript">
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  }
-
-  $(window).scroll(function(){
-    $('nav').toggleClass('scrolled',$(this).scrollTop()>150);
-  });
-
-  var glideMulti = new Glide('.multi', {
-    type: 'slider',
-    autoplay: 2000,
-    focusAt: 'center',
-    perView: 2
-  });
-
-  glideMulti.mount();
-
-</script>
 
 </body>
 </html>
 
-<style type="text/css">
-  .logowhats{
-    position: fixed !important;
-    left: 1%;
-    bottom: 3%;
-    width: 60px;
-    z-index: 1000;
+<script type="text/javascript">
+    $(window).scroll(function(){
+      $('nav').toggleClass('scrolled',$(this).scrollTop()>150);
+      $('.logo').toggleClass('scrolled',$(this).scrollTop()>150);
+  });
+    AOS.init();
+</script>
+
+
+<style>
+       html {
+      scroll-behavior: smooth;
   }
-  .logowhats img{
+
+  body {
+    font-weight: 300;
+    font-size: 16px;
+    color: #313131;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-top: 15vh;
+}
+
+section {
     width: 100%;
-    height: auto;
-  }
-  .navbar-dark {
-    background:transparent !important;
-    transition:0.75s ease;
-  }
-  .navbar-dark.scrolled {
-    background:#000 !important;
-  }
-  .glide__slide {
-    line-height: 400px;
-    margin: 0;
-  }
-  .showcase {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+    .navbar-dark {
+        background:transparent !important;
+        transition:0.75s ease;
+    }
+    .navbar-dark.scrolled {
+        background:#000 !important;
+    }
+    .logo {
+        transition:0.75s ease;
+    }
+    .logo.scrolled {
+        filter: invert(100%);
+    }
+      .showcase {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -269,8 +336,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: var(--primary-color) url('./img/cover.jpg') no-repeat center
-    center/cover;
   }
 
   .video-container video {
@@ -300,23 +365,53 @@
   .h1w{
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: calc(3em + 4vw);
+    font-family: 'Great Vibes', cursive;
+    font-size: calc(4em + 4vw);
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.4);
+  }
+  .h2w{
+    font-family: 'Judson', serif;
+    font-size: calc(1.1em + 1.1vw);
   }
   .h3w{
     font-family: 'Chivo', sans-serif;
-    font-size: calc(0.7em + 0.7vw);
-  }
-  img{
-    transition: 1s;
-  }
-  .view:hover img{
-    filter: grayscale(100%);
-    overflow: hidden;
-    transform: scale(1.1) rotate(-1deg);
+    font-size: calc(0.9em + 0.9vw);
   }
   .nav-link {
     padding-right: 2rem !important;
     padding-left: 2rem !important;
   }
+  .logowhats{
+    position: fixed !important;
+    left: 1%;
+    bottom: 3%;
+    width: 60px;
+    z-index: 1000;
+  }
+  .logowhats img{
+    width: 100%;
+    height: auto;
+  }
+  .btn.near-moon-gradient{
+    position: fixed !important;
+    right: 1%;
+    bottom: 3%;
+    z-index: 1000;
+ }
+ .dropdown:hover>.dropdown-menu { 
+    display: block; 
+}
+.dropdown-menu {
+    background: rgba(0,0,0,0.5);
+}
+.dropdown-item:hover{
+    background: rgba(0,0,0,0.2);   
+}
+.historia{
+    height: 25vh; 
+    filter: drop-shadow(0 0.5vh 0.8vh #000);
+}
+.edades{
+    height: 33.3vh;
+}
 </style>
