@@ -21,19 +21,20 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
-  
+
 <body class="elegant-color-dark">
     <header class="header">  
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center z-depth-0 font-weight-bold">
+        <nav class="navbar navbar-expand-lg navbar-dark black fixed-top text-center z-depth-0 font-weight-bold">
           <div class="container">
             <a class="navbar-brand" href="#">
-              <img class="logo" src="img/logocompany83&3spirits.jpeg" height="60" alt="mdb logo">
+              <img class="logo" src="img/LogoCS83&3.jpg" height="60">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="icon-bar top-bar"></span>
+  <span class="icon-bar middle-bar"></span>
+  <span class="icon-bar bottom-bar"></span>       
+</button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -62,6 +63,9 @@
         <li class="nav-item">
             <a class="nav-link" href="#">Cata</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link registro" data-toggle="modal" data-target="#modalContactForm" href="#">Registrarse</a>
+        </li>
     </ul>
 </div>
 </div>
@@ -81,6 +85,37 @@
 </header>
 
 <section id="seccion-1">
+  <div class="container mt-5 mb-5 white-text">
+    <div class="row mb-5 text-center">
+      <div class="col-12"><p><h5>Tequila <b class="font-weight-bold font-italic">Collectors Potion</b> es concebido para lograr la interacción de los amantes del tequila y los apasionados de la elaboración de la bebida mundialmente reconocida como lo es el tequila, esta marca tiene el aval y el diseño de los especialistas del tequila de la <b class="font-weight-bold font-italic">NOM 1414</b>, con lo cual damos certeza y garantía de que recibirá un tequila de inigualable calidad y las mejores explicaciones de cada uno de los procesos que intervienen en la bebida y en la elaboración de un perfil único e irrepetible.</h5></p>
+        <a class="white-text" data-toggle="collapse" href="#masHistoria"><h3>↓</h3></a>
+      </div>
+      <div class="col-12">
+        <div class="collapse" id="masHistoria">
+          <h5>Este perfil te llevará de la mano para que conozcas y adquieras la experiencia necesaria para identificar cada una de las etapas que intervienen en el proceso además de llevarte hasta tu destino algunas características que definen el perfil y puedas enriquecer cada vez mas tu conocimiento sobre esta bebida.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="seccion-2">
+  <div class="container mb-5 white-text">
+    <div class="row mb-5 text-center">
+      <div class="col-12 col-lg-6 text-justify">
+        <h1>Misión</h1>
+        <p>Tequila Collectors Potion tiene como misión llevar conocimientos que no están aun difundidos en el ámbito de publico habitual para dar una guía y crecimiento para lograr ser un conocedor de la bebida icono de México, generando un intercambio de ideas y conocimientos de los descriptores de cada una de las creaciones de perfiles y satisfacer al consumidor final en el producto deseado.</p>
+      </div>
+      <div class="col-12 col-lg-6 text-justify">
+        <h1 class="cyan-text">Visión</h1>
+        <p>Posicionarse como un referente entre los principiantes y conocedores del tequila, logrando destacar en sus perfiles y experimentos que puede llevarse a cabo con la guía de los profesionales de NOM 1414.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="seccion1">
     <h1>Sección <b class="cyan-text">1</b></h1>
     <div class="container mt-5 mb-5">
       <div class="row mb-5">
@@ -88,8 +123,8 @@
           <img class="historia" src="img/agave.png">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2 order-lg-firts">
-          <h3 class="cyan-text">Subtitulo 1</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h3 class="cyan-text">Honestidad:</h3>
+          <p>Realizamos todas las actividades con transparencia y sinceridad para generar confianza y credibilidad de la empresa hacia nuestros clientes.</p>
         </div>
       </div>
       <div class="row mb-5">
@@ -97,8 +132,8 @@
           <img class="historia" src="img/tequila.png">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2">
-          <h3 class="cyan-text">Subtitulo 2</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h3 class="cyan-text">Trabajo en Equipo:</h3>
+          Apoyamos la labor en conjunto, desarrollando nuestras tareas confiando en la labor de los demás miembros del grupo.
         </div>
       </div>
       <div class="row">
@@ -106,14 +141,14 @@
           <img class="historia" src="img/alcohol.png">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7 mb-2 order-lg-firts">
-          <h3 class="cyan-text">Subtitulo 3</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h3 class="cyan-text">Innovación:</h3>
+          <p>Búsqueda permanente de la mejora continúa ofreciendo productos innovadores compartiendo los conocimientos adquiridos durante años.</p>
         </div>
       </div>
     </div>
 </section>
 
-<!-- Sección 2 -->
+<!-- Sección 2 
 <section id="seccion-2">
     <h1>Sección <b class="cyan-text">2</b></h1>
     <div class="container mt-5 mb-5">
@@ -146,6 +181,7 @@
         </div>
 </div>
 </section>
+-->
 
 <section id="seccion-3">
     <h1>Sección <b class="cyan-text">3</b></h1>
@@ -267,14 +303,56 @@
     </div>
 </footer>
 
-</body>
-</html>
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content elegant-color-dark">
+      <div class="modal-header text-center">
+        <h4 class="w-100 font-weight-bold white-text">Registro</h4>
+        <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Nombre</label>
+        </div>
 
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Correo</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">Teléfono</label>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center mb-3">
+        <button type="button" class="btn btn-outline-cyan btn-md z-depth-0 rounded-pill">REGISTRARSE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 <script type="text/javascript">
-    $(window).scroll(function(){
-      $('nav').toggleClass('scrolled',$(this).scrollTop()>150);
-      $('.logo').toggleClass('scrolled',$(this).scrollTop()>150);
+  $(document).ready(function() {
+  const menuBtn = $('.nav-link');
+  menuBtn.click(()=>{ 
+    setTimeout(()=>{
+      removeHash();
+    });
   });
+  function removeHash(){
+    history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+  }
+});
     AOS.init();
 </script>
 
@@ -288,6 +366,7 @@
     font-weight: 300;
     font-size: 16px;
     color: #313131;
+    font-family: 'Judson', serif;
 }
 
 h1 {
@@ -306,13 +385,7 @@ section {
     text-align: center;
 
 }
-    .navbar-dark {
-        background:transparent !important;
-        transition:0.75s ease;
-    }
-    .navbar-dark.scrolled {
-        background:#000 !important;
-    }
+
     .logo {
         transition:0.75s ease;
     }
@@ -372,9 +445,10 @@ section {
   .h2w{
     font-family: 'Judson', serif;
     font-size: calc(1.1em + 1.1vw);
+    font-weight: bold;
   }
   .h3w{
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Judson', serif;
     font-size: calc(0.9em + 0.9vw);
   }
   .nav-link {
@@ -398,7 +472,28 @@ section {
     bottom: 3%;
     z-index: 1000;
  }
- .dropdown:hover>.dropdown-menu { 
+ 
+.historia{
+    height: 25vh; 
+    filter: drop-shadow(0 0.5vh 0.8vh #000);
+}
+.edades{
+    height: 33.3vh;
+}
+.registro {
+    background: rgba(0,0,0,0.5);
+}
+
+#seccion-2{
+  background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.8)), url('img/jimador.jpg');
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+.dropdown:hover>.dropdown-menu { 
     display: block; 
 }
 .dropdown-menu {
@@ -407,11 +502,73 @@ section {
 .dropdown-item:hover{
     background: rgba(0,0,0,0.2);   
 }
-.historia{
-    height: 25vh; 
-    filter: drop-shadow(0 0.5vh 0.8vh #000);
+
 }
-.edades{
-    height: 33.3vh;
+
+
+@media (max-width: 992px) {
+    
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -45%;
+        transition: all 0.1s ease;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 70vw;
+        transition: left 0.35s ease;
+        background-color: #000;
+        padding-top: 22vh;
+        font-size: calc(1em + 1vw);
+    }
+}
+.icon-bar {
+  width: 22px; 
+  height: 2px;
+  background-color: #B6B6B6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 </style>
+
