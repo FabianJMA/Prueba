@@ -80,8 +80,8 @@
         <h3 class="h3w">Tequila</h3>
       </div>
     </div>
-    <a class="logowhats" target="_blank" href="https://api.whatsapp.com/send?phone=523481112233&text=Hola&nbsp;me&nbsp;puedes&nbsp;ayudar&nbsp;con&nbsp;algo?"><img src="img/whats.png"></a>
-    <button class="btn near-moon-gradient rounded-pill white-text"><i class="fas fa-shopping-cart"></i> Comprar</button>
+    <button class="btn whats btn-lg btn-circle white-text"><a target="_blank" href="https://api.whatsapp.com/send?phone=523481112233&text=Hola&nbsp;me&nbsp;puedes&nbsp;ayudar&nbsp;con&nbsp;algo?"><img src="img/whats.png" height="40"></a></i></button>
+    <button class="btn car btn-lg btn-circle white-text"><i class="fas fa-shopping-cart"></i></button>
   </header>
 
   <section>
@@ -171,7 +171,7 @@
     <div class="container mb-5">
       <section id="edad1">
       <div class="row">
-        <div class="col-12 col-lg-5 order-lg-last">
+        <div class="col-12 col-lg-5 order-lg-last" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
           <img class="produ" src="img/campoagave.jpg">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7 order-lg-firts">
@@ -183,7 +183,7 @@
       </section>
       <section id="edad2">
       <div class="row">
-        <div class="col-12 col-lg-5">
+        <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
           <img class="produ" src="img/campoagave.jpg">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7">
@@ -195,7 +195,7 @@
       </section>
       <section id="edad3">
       <div class="row">
-        <div class="col-12 col-lg-5 order-lg-last">
+        <div class="col-12 col-lg-5 order-lg-last" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-once="true">
           <img class="produ" src="img/campoagave.jpg">
         </div>
         <div class="col-12 text-left white-text align-self-center col-lg-7 order-lg-firts">
@@ -288,10 +288,29 @@
     </div>
   </section>
 
-<!-- Sección 3 -->
+<section id="">
+  <h1>Galería</h1>
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="gallery col-12 col-lg-3 mb-5 mb-lg-0">
+        <img data-toggle="tooltip" data-placement="top" title="Imagen 1" src="img/image1.jpg" height="300">
+      </div>
+      <div class="gallery col-12 col-lg-3 mb-5 mb-lg-0">
+        <img data-toggle="tooltip" data-placement="top" title="Imagen 2" src="img/image2.jpg" height="300">
+      </div>
+      <div class="gallery col-12 col-lg-3 mb-5 mb-lg-0">
+        <img data-toggle="tooltip" data-placement="top" title="Imagen 3" src="img/image3.jpg" height="300">
+      </div>
+      <div class="gallery col-12 col-lg-3">
+        <img data-toggle="tooltip" data-placement="top" title="Imagen 4" src="img/image4.jpg" height="300">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="">
   <h1>Contacto</h1>
-  <div class="container mt-3">
+  <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
         <div class="md-form">
@@ -329,6 +348,8 @@
     </div>
   </div>
 </section>
+
+
 
 <footer class="page-footer font-small dark darken-3 mt-5">
   <div class="footer-copyright text-center py-3">
@@ -435,6 +456,10 @@ aria-hidden="true">
   $('.nav-link').click(function(e) {
     $('#navbarSupportedContent').collapse('hide');      
 });
+
+  $(function () {
+$('[data-toggle="tooltip"]').tooltip()
+})
 </script>
 
 
@@ -540,22 +565,32 @@ section {
   padding-right: 2rem !important;
   padding-left: 2rem !important;
 }
-.logowhats{
+.btn-circle.btn-lg.whats {
   position: fixed !important;
-  left: 1%;
-  bottom: 3%;
-  width: 60px;
+  right: 1vw;
+  bottom: 12vh;
   z-index: 1000;
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  background: rgba(0,187,45,1);
 }
-.logowhats img{
-  width: 100%;
-  height: auto;
-}
-.btn.near-moon-gradient{
+
+.btn-circle.btn-lg.car {
   position: fixed !important;
-  right: 1%;
-  bottom: 3%;
+  right: 1vw;
+  bottom: 1vh;
   z-index: 1000;
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  background: rgba(0,111,134,1);
 }
 .produ{
   margin-top: 13vh;
@@ -690,5 +725,16 @@ section {
 
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
+}
+
+.tooltip .arrow  {
+  display: none!important;
+}
+.gallery{
+  transition: all 2s ease;
+}
+
+.gallery:hover{
+  filter: grayscale(80%);
 }
 </style>
